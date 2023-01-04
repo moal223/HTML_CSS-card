@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #0c2232;
+}
+
+.card {
+    background-color: #122c40;
+    width: 310px;
+    margin: 50px auto;
+    padding: 28px;
+    border-radius: 13px;
+}
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.discription {
+    margin-top: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.discription > a {
+    font-size: 22px;
+}
+.discription > a + p {
+    color: hwb(0deg 42% 58%);
+    line-height: 1.2;
+}
+.discription .sales {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 19px;
+    color: hwb(0deg 42% 58%);
+}
+/* .discription .sales i {
+    color:aqua;
+    font-size: 20px;
+} */
+
+.discription .footer > img {
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
